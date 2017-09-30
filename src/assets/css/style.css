@@ -1,0 +1,19 @@
+@import "partials/public.css";
+@import "header.css";
+@import "slider.css";
+@import "content.css";
+
+.w100 {
+  width: 100%;
+}
+
+.container {
+  min-width: 1200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.pointer {
+  cursor: pointer;
+}

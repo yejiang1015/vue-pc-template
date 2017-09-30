@@ -1,0 +1,16 @@
+.navitem {
+  background-color: #4a5064;
+  padding: 0 16px;
+  overflow: hidden;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  transition: all .6s;
+}
+
+.navitem-act {
+  color: #2d8cf0;
+  background: #363e4f;
+}

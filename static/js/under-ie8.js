@@ -1,0 +1,5 @@
+var _uat = window.navigator.userAgent;
+if (/MSIE\s{1}[678]/.test(_uat)) {
+  document.write('<style>.pop{font-family:"微软雅黑",Microsoft Yahei;line-height:1.6;width:100%;z-index:1000;height:100%;filter:progid:DXImageTransform.Microsoft.gradient(enabled="true", startColorstr="#CC000000", endColorstr="#CC000000");position:fixed;left:0;top:0}.g-tipCont{position:absolute;left:50%;top:50%;width:400px;margin-left:-200px;margin-top:-150px;height:200px;background:#fff;font-size:16px;padding:60px 30px 30px}.g-tipCont p{margin-bottom:50px;color:red}.g-tipCont a{float:left;height:40px;line-height:40px;color:#fff;text-align:center;text-indent:-999em}.browser-360{background:url(../static/img/tool_logo_bg.png) left center no-repeat;width:192px;margin-right:75px}.browser-qq{background:url(../static/img/qb7_btn.png) left center no-repeat;width:130px}</style>');
+  document.write('<div class="pop"><div class="g-tipCont"><p>hi,您当前的浏览器版本过低，可能存在安全风险，建议升级更加安全先进的浏览器访问</p><a href="http://chrome.360.cn/" target="_blank" class="browser-360">360极速浏览器</a><a href="http://browser.qq.com" target="_blank" class="browser-qq">QQ浏览器</a></div></div>');
+}

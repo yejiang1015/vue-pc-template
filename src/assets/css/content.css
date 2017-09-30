@@ -1,0 +1,29 @@
+.content {
+  flex: 1;
+  display: flex;
+  background: #f5f7f9;
+  &-left {
+    width: 180px;
+    height: 100%;
+    background-color: #464c5b;
+    transition: width .6s;
+  }
+  &-right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    &-main {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin: 15px 15px 0;
+      padding: 15px;
+      border-radius: 5px;
+      background: #fff;
+    }
+    &-copyright {
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+}
