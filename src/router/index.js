@@ -6,7 +6,6 @@
  */
 
 import Vue from 'vue';
-// import store from 'store';
 import Router from 'vue-router';
 import cookieUtil from 'util/cookie';
 
@@ -26,21 +25,13 @@ const router = new Router({
     },
     {
       path: '/main',
-      component: r => require(['views/main'], r),
-      children: [
-        {
-          path: '/',
-          redirect: 'query'
-        },
-        {
-          path: 'query',
-          component: r => require(['views/main/query'], r)
-        },
-        {
-          path: 'statistics',
-          component: r => require(['views/main/statistics'], r)
-        }
-      ]
+      component: r => require(['views/main'], r)
+      // children: [
+      //   {
+      //     path: '/',
+      //     redirect: ''
+      //   }
+      // ]
     }
   ]
 });

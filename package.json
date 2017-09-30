@@ -1,11 +1,11 @@
 {
-  "name": "my-data",
+  "name": "app",
   "version": "1.0.0",
-  "description": "医疗保险平台运营系统",
+  "description": "template",
   "authors": [
     {
-      "name": "haiyangj001",
-      "email": "12463gguser@gmail.com"
+      "name": "xxx",
+      "email": "xxx@gmail.com"
     }
   ],
   "private": true,

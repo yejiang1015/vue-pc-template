@@ -67,7 +67,19 @@ const dateUtil = {
     date.setDate(curDate + Number(num));
     return (type === 'date' ? date : dateUtil.fmtDate(date, type));
   },
-
+  /**
+   * 根据传入的日期月数参数，返回新的日期
+   *
+   * @param {Date} date
+   * @param {Number} num
+   * @param {String} type 'd'：返回日期对象，默认。 或者返回指定格式的字符串，如'yyyy-MM'
+   * @returns {*}
+   */
+  addMonth: (date, num, type = 'date') => {
+    const curMonth = date.getMonth();
+    date.setMonth(curMonth + Number(num));
+    return (type === 'date' ? date : dateUtil.fmtDate(date, type));
+  },
   /**
    * 根据传入的日期年数，返回新的日期
    *

@@ -12,8 +12,7 @@ import plugins from './plugins';
 import * as actions from './actions';
 import * as getters from './getters';
 import { state, mutations } from './mutations';
-import login from './modules/login';
-import order from './modules/order';
+// import login from './modules/login';
 
 Vue.use(Vuex);
 
@@ -25,8 +24,7 @@ const store = new Vuex.Store({
   state,
   mutations,
   modules: {
-    login,
-    order
+    // login,
   },
   strict: debug,
   plugins

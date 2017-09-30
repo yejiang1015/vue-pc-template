@@ -10,4 +10,3 @@ export const SHOW_LOADING = 'SHOW_LOADING';
 export const HIDE_LOADING = 'HIDE_LOADING';
 
 // 登录
-export const LOGIN = 'LOGIN';
